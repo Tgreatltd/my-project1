@@ -34,7 +34,7 @@ body {
     position: relative;
     background-color: rgba(190, 182, 182, 0.151);
     align-items: center;
-    font-family: cursive;
+    font-style: italic;
 }
 
 nav {
@@ -43,19 +43,19 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: cursive;
+    font-style: italic;
 }
 
 .tory {
     font-size: 24px;
-    font-family: cursive;
+    font-style: italic;
 }
 
 .nav-content {
     display: flex;
     list-style-type: none;
     gap: 20px;
-    font-family: cursive;
+    font-style: italic;
 
 }
 
@@ -64,7 +64,7 @@ ul a {
     color: black;
     font-size: 16px;
     font-weight: 400;
-    font-family: cursive;
+    font-style: italic;
   
 
 }
@@ -75,7 +75,7 @@ nav button{
     outline: none;
    
     display: none;
-    font-family: cursive;
+    font-style: italic;
 
 }
 
@@ -93,14 +93,19 @@ nav button{
     justify-content: space-around;
     display: none;
     top: 50px;
-    font-family: cursive;
+    /* font-family: cursive; */
+    font-style: italic;
 }
 
-nav button:focus{
+nav button:focus .nav-content2{
+    display: flex;
+    }
+
+/* nav button:focus {
 .nav-content2{
     display: flex;
 }
-}
+} */
 
 
 .pic {
