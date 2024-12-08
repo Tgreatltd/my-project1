@@ -90,11 +90,15 @@ nav button {
     top: 50px;
 }
 
-nav button:focus {
+nav button:focus .nav-content2 {
+    display: flex;
+}
+
+/* nav button:focus {
     .nav-content2 {
         display: flex;
     }
-}
+} */
 
 
 
@@ -115,7 +119,7 @@ nav button:focus {
 }
 
 .content-name {
-/* 
+    /* 
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
