@@ -139,6 +139,7 @@ nav button:focus .nav-content2 {
 .content-des {
     text-align: justify;
     font-size: 14px;
+    line-height: 30px;
 
 }
 
