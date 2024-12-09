@@ -143,6 +143,20 @@ nav button:active + .nav-content2 {
 
 
 
+.checkBtn{
+    font-size: 25px;
+    color:black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
 
 
 .content {
