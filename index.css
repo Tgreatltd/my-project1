@@ -221,7 +221,7 @@ footer {
 
 @media(max-width:750px) {
     .content {
-        height: 78vh;
+        height: 85vh;
     }
 
     .content1 {
@@ -229,6 +229,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: start;
+        gap: 20px;
     }
 
     .content-about {
@@ -273,7 +274,7 @@ footer {
 
 
     .content {
-        height: 80vh;
+        height: 86vh;
     }
 
     .footer-content {
