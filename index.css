@@ -25,6 +25,7 @@ body {
 }
 
 
+
 .nav-bar {
     height: 7vh;
     width: 100%;
@@ -99,6 +100,20 @@ nav button:focus-within .nav-content2 {
         display: flex;
     }
 } */
+
+.checkBtn{
+    font-size: 30px;
+    color:black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
 
 
 
@@ -262,7 +277,7 @@ footer {
 @media(max-width:650px) {
 
     .nav-content {
-        display: none;
+        /* display: none; */
 
     }
 
@@ -287,7 +302,55 @@ footer {
         width: 90%;
         /* background-color: red; */
     }
+
+
+    .checkBtn{
+        display: block;
+    }
+
+    .nav-content{
+        position: fixed;
+        width: 100%;
+        height: 50vh;
+        background-color: rgb(85, 79, 70);
+        opacity: 0.96;
+        top: 40px;
+        left: -100%;
+        /* left: 0; */
+        /* color: red; */
+        text-align: center;
+        transition: all .5s linear;
+         /* display: none; */
+         right: 0px;
+    }
+    /* nav ul li{
+        display: flex;
+        margin: 50px 0;
+        flex-direction: column;
+    } */
+
+    .nav-content{
+        display: flex;
+        flex-direction: column;
+        /* gap: 50px; */
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+    #check:checked ~ul{
+      left: 0;
+     }
+
+
 }
+
+
+
+
+
 
 @media(max-width:600px) {
     footer {
