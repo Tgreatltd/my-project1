@@ -65,7 +65,7 @@ ul a {
 
 }
 
-nav button {
+/* nav button {
     background: none;
     border: none;
     outline: none;
@@ -92,13 +92,42 @@ nav button {
 
 nav button:focus .nav-content2 {
     display: flex;
-}
+} */
 
 /* nav button:focus {
     .nav-content2 {
         display: flex;
     }
 } */
+
+
+nav button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer; /* Indicate interactivity */
+    font-size: 24px; /* Adjust as needed for the icon size */
+    display: none;
+}
+
+.nav-content2 {
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+    width: 400px;
+    background-color: rgba(201, 198, 198, 0.384);
+    height: 400px;
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    top: 50px;
+}
+
+nav button:focus + .nav-content2,
+nav button:active + .nav-content2 {
+    display: flex; /* Show the menu when button is focused or active */
+}
 
 
 
