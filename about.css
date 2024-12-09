@@ -63,40 +63,6 @@ ul a {
 
 }
 
-nav button {
-    background: none;
-    border: none;
-    outline: none;
-
-    display: none;
-
-}
-
-
-.nav-content2 {
-    list-style-type: none;
-    position: absolute;
-    right: 0px;
-    width: 400px;
-    background-color: rgba(201, 198, 198, 0.384);
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    display: none;
-    top: 50px;
-}
-
-nav button:focus-within .nav-content2 {
-    display: flex;
-}
-
-
-
-
-
-
 
 
 .checkBtn {
@@ -271,17 +237,8 @@ footer {
 
 @media(max-width:750px) {
 
-    nav button {
-        display: flex;
-        font-size: 20px;
 
-    }
 
-    .nav-content2 {
-        width: 340px;
-        box-shadow: 0px 0px 1rem;
-        background-color: rgba(201, 198, 198, 0.973);
-    }
 
     .content {
         height: 115vh;
@@ -289,7 +246,7 @@ footer {
 
     .footer-content {
         width: 90%;
-     
+
     }
 
 
@@ -363,10 +320,10 @@ footer {
     }
 
     .content-image img {
-       
+
         width: 350px;
         height: 450px;
-       
+
 
     }
 
