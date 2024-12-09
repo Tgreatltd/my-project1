@@ -315,7 +315,7 @@ footer {
         background-color: rgb(85, 79, 70);
         opacity: 0.96;
         top: 40px;
-        left: -100%;
+        left: -110%;
         /* left: 0; */
         /* color: red; */
         text-align: center;
@@ -337,9 +337,6 @@ footer {
         justify-content: space-around;
     }
 
-    nav ul li a{
-        font-size: 20px;
-    }
     #check:checked ~ul{
       left: 0;
      }
