@@ -195,6 +195,12 @@ footer {
     gap: 20px;
 }
 
+
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+
 @media(max-width:1061px) {
     .content1 {
         width: 80%;
