@@ -271,11 +271,6 @@ footer {
 
 @media(max-width:750px) {
 
-    .nav-content {
-        /* display: none; */
-
-    }
-
     nav button {
         display: flex;
         font-size: 20px;
@@ -294,7 +289,7 @@ footer {
 
     .footer-content {
         width: 90%;
-        /* background-color: red; */
+     
     }
 
 
@@ -345,7 +340,6 @@ footer {
 
     footer {
         height: 15vh;
-        /* background-color: red; */
     }
 
     .footer-content {
@@ -369,15 +363,10 @@ footer {
     }
 
     .content-image img {
-        /* IMG_3232 1 */
-
-        /* position: absolute; */
+       
         width: 350px;
         height: 450px;
-        /* left: calc(50% - 571px/2 + 32.5px); */
-        /* top: 155px; */
-
-        /* background: url(IMG_3232.jpg); */
+       
 
     }
 
@@ -387,20 +376,7 @@ footer {
 
 }
 
-@media(max-width:420px) {
-    .content {
-        /* height: 110vh; */
-    }
 
-
-
-}
-
-@media(max-width:396px) {
-    .content {
-        /* height: 115vh; */
-    }
-}
 
 @media(max-width:345px) {
     .content {
